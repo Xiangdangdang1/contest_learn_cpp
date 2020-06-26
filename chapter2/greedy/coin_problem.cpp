@@ -10,7 +10,7 @@ void solve()
     for (int i = 5; i >= 0; i--)
     {
         //使用了t枚硬币i
-        int t = min(A / V[i], C[i]);
+        int t = min(A / V[i], C[i]); //这句是重点！！
         cout << V[i] << "元硬币用了：" << t << "枚" << endl;
         A -= t * V[i];
         ans += t;

@@ -6,6 +6,12 @@
 	],
 	"settings": {
 		"editor.fontSize": 15,
-		"debug.inlineValues": true
+		"debug.inlineValues": true,
+		"editor.fontFamily": "Consolas, 'Courier New', monospace",
+		"debug.openExplorerOnEnd": true,
+		"files.associations": {
+			"iostream": "cpp",
+			"ostream": "cpp"
+		}
 	}
 }
